@@ -1,0 +1,11 @@
+{
+  "name": "rordan-ai",
+  "owner": { "name": "rordan-ai" },
+  "plugins": [
+    {
+      "name": "central-info-station",
+      "source": "./plugins/central-info-station",
+      "description": "Retrieve, don't read: a self-updating index of your project's decisions, plans, handoffs and rules, plus Claude Code hooks that enforce it (session card, read gate, edit-time context)."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "central-info-station",
+  "version": "1.0.0",
+  "description": "Retrieve, don't read: a self-updating index of your project's decisions, plans, handoffs and rules, plus Claude Code hooks that enforce it (session card, read gate, edit-time context).",
+  "author": { "name": "rordan-ai" },
+  "license": "MIT",
+  "keywords": ["context", "hooks", "documentation", "retrieval", "worktrees", "agents"]
+}

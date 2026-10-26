@@ -1,0 +1,13 @@
+{
+  "name": "central-info-station",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retrieve, don't read — a self-updating index + Claude Code hooks that keep AI coding agents oriented in big projects.",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/cis.test.js",
+    "demo": "node tests/fixture.js demo-repo"
+  }
+}

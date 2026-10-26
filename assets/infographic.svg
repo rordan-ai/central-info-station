@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="cs-title cs-desc" xml:lang="en" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<title id="cs-title">Central Info Station (CIS) — Retrieve, don’t read.</title>
+<desc id="cs-desc">Four-stage flow: Sources (decision log, plans, docs, agent rules, memory, git history, code graph) are indexed as references only (.cis), retrieved as exact excerpts with ctx, and enforced by hooks (SessionStart card, read gate, git hooks, miss log). Measured: session-start context 50 KB to 4 KB, answers up to 3 KB, gate cost about 40 ms, zero dependencies.</desc>
+<rect x="0.75" y="0.75" width="1198.5" height="718.5" rx="20" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.5"/>
+<g transform="translate(40 38)"><rect width="56" height="56" rx="14" fill="#0F2B4C"/><circle cx="17" cy="19" r="3.2" fill="#FBBF24"/><path d="M24 19h16" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/><circle cx="17" cy="28" r="3.2" fill="#9CC3F5"/><path d="M24 28h11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.85"/><circle cx="17" cy="37" r="3.2" fill="#9CC3F5"/><path d="M24 37h14" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.85"/></g>
+<text x="112" y="76" font-size="38" font-weight="700" fill="#0F2B4C" letter-spacing="-0.3">Central Info Station <tspan fill="#1D4ED8">· CIS</tspan></text>
+<text x="112" y="109" font-size="22" font-weight="600" fill="#1D4ED8">Retrieve, don’t read.</text>
+<text x="112" y="140" font-size="15" fill="#4B5563">A self-updating index + enforcement hooks that keep AI coding agents oriented in big projects.</text>
+<rect x="40" y="170" width="228" height="352" rx="14" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="1.5"/>
+<rect x="58" y="188" width="40" height="40" rx="10" fill="#E8F0FE"/>
+<g transform="translate(58 188)"><rect x="14" y="8" width="17" height="21" rx="2.5" fill="none" stroke="#1D4ED8" stroke-width="2"/><rect x="9" y="12" width="17" height="21" rx="2.5" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/><path d="M13 18.5h9M13 22.5h9M13 26.5h5.5" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="110" y="206" font-size="16" font-weight="700" fill="#0F2B4C" letter-spacing="1.4">SOURCES</text>
+<text x="110" y="226" font-size="13.5" fill="#4B5563">what it reads</text>
+<text x="250" y="206" font-size="13" font-weight="700" fill="#6B7280" text-anchor="end">01</text>
+<line x1="58" y1="246" x2="250" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="296" y="170" width="262" height="352" rx="14" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="1.5"/>
+<rect x="314" y="188" width="40" height="40" rx="10" fill="#E8F0FE"/>
+<g transform="translate(314 188)"><ellipse cx="20" cy="12" rx="10" ry="4" fill="none" stroke="#1D4ED8" stroke-width="2"/><path d="M10 12v16c0 2.2 4.5 4 10 4s10-1.8 10-4V12M10 20c0 2.2 4.5 4 10 4s10-1.8 10-4" fill="none" stroke="#1D4ED8" stroke-width="2"/></g>
+<text x="366" y="206" font-size="16" font-weight="700" fill="#0F2B4C" letter-spacing="1.4">INDEX</text>
+<text x="366" y="226" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#1D4ED8">.cis</text>
+<text x="540" y="206" font-size="13" font-weight="700" fill="#6B7280" text-anchor="end">02</text>
+<line x1="314" y1="246" x2="540" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="586" y="170" width="262" height="352" rx="14" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="1.5"/>
+<rect x="604" y="188" width="40" height="40" rx="10" fill="#E8F0FE"/>
+<g transform="translate(604 188)"><circle cx="18" cy="18" r="8.5" fill="none" stroke="#1D4ED8" stroke-width="2.2"/><path d="M14 16.5h8M14 20h5" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round"/><path d="M24.5 24.5l6.5 6.5" fill="none" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round"/></g>
+<text x="656" y="206" font-size="16" font-weight="700" fill="#0F2B4C" letter-spacing="1.4">RETRIEVE</text>
+<text x="656" y="226" font-size="13.5" fill="#4B5563">what the agent gets</text>
+<text x="830" y="206" font-size="13" font-weight="700" fill="#6B7280" text-anchor="end">03</text>
+<line x1="604" y1="246" x2="830" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="876" y="170" width="284" height="352" rx="14" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+<rect x="894" y="188" width="40" height="40" rx="10" fill="#FEF3C7"/>
+<g transform="translate(894 188)"><path d="M20 6.5l11 4v8.5c0 7-4.6 12-11 14.5C13.6 31 9 26 9 19v-8.5z" fill="none" stroke="#B45309" stroke-width="2" stroke-linejoin="round"/><rect x="15.5" y="18.5" width="9" height="7.5" rx="1.5" fill="#B45309"/><path d="M17.3 18.5v-2.2a2.7 2.7 0 0 1 5.4 0v2.2" fill="none" stroke="#B45309" stroke-width="1.8"/></g>
+<text x="946" y="206" font-size="16" font-weight="700" fill="#92400E" letter-spacing="1.4">ENFORCE</text>
+<text x="946" y="226" font-size="13.5" fill="#4B5563">hooks</text>
+<text x="1142" y="206" font-size="13" font-weight="700" fill="#B45309" text-anchor="end">04</text>
+<line x1="894" y1="246" x2="1142" y2="246" stroke="#FCD9A0" stroke-width="1"/>
+<circle cx="282" cy="346" r="15" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="1.5"/>
+<path d="M276 346H288M283 341L288 346L283 351" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="572" cy="346" r="15" fill="#FFFFFF" stroke="#D5DCE4" stroke-width="1.5"/>
+<path d="M566 346H578M573 341L578 346L573 351" fill="none" stroke="#1D4ED8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="862" cy="346" r="15" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.5"/>
+<path d="M856 346H868M863 341L868 346L863 351" fill="none" stroke="#B45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(58 264)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="276" font-size="15" fill="#1F2937">Decision log / ADRs</text>
+<g transform="translate(58 295)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="307" font-size="15" fill="#1F2937">Plans &amp; task lists</text>
+<g transform="translate(58 326)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="338" font-size="15" fill="#1F2937">Docs &amp; handoff notes</text>
+<g transform="translate(58 357)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="369" font-size="15" fill="#1F2937">Agent rules</text>
+<g transform="translate(58 408)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="420" font-size="15" fill="#1F2937">Agent memory</text>
+<g transform="translate(58 439)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="451" font-size="15" fill="#1F2937">Git history</text>
+<g transform="translate(58 470)"><path d="M1.5 1h6.5l3.5 3.5V14H1.5z" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 1v3.5h3.5" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="78" y="482" font-size="15" fill="#1F2937">Code graph<tspan fill="#4B5563"> (optional)</tspan></text>
+<text x="78" y="389" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#4B5563">CLAUDE.md · AGENTS.md</text>
+<text x="314" y="276" font-size="15" font-weight="700" fill="#0F2B4C">References only</text>
+<rect x="314" y="289" width="30" height="25" rx="6" fill="#EFF4FB" stroke="#C9D7EA" stroke-width="1"/>
+<text x="329" y="306.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1E3A5F" text-anchor="middle">id</text>
+<rect x="350" y="289" width="53" height="25" rx="6" fill="#EFF4FB" stroke="#C9D7EA" stroke-width="1"/>
+<text x="376.5" y="306.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1E3A5F" text-anchor="middle">title</text>
+<rect x="409" y="289" width="61" height="25" rx="6" fill="#EFF4FB" stroke="#C9D7EA" stroke-width="1"/>
+<text x="439.5" y="306.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1E3A5F" text-anchor="middle">status</text>
+<rect x="314" y="321" width="92" height="25" rx="6" fill="#EFF4FB" stroke="#C9D7EA" stroke-width="1"/>
+<text x="360" y="338.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1E3A5F" text-anchor="middle">file:lines</text>
+<rect x="412" y="321" width="115" height="25" rx="6" fill="#EFF4FB" stroke="#C9D7EA" stroke-width="1"/>
+<text x="469.5" y="338.5" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1E3A5F" text-anchor="middle">links to code</text>
+<circle cx="318" cy="377" r="3" fill="#1D4ED8"/>
+<text x="330" y="382" font-size="15" fill="#1F2937"><tspan font-weight="600">Exact IDs</tspan> + <tspan font-weight="600">BM25</tspan> ranking</text>
+<circle cx="318" cy="409" r="3" fill="#1D4ED8"/>
+<text x="330" y="414" font-size="15" fill="#1F2937">English &amp; Hebrew</text>
+<text x="330" y="433" font-size="14" fill="#4B5563">normalization</text>
+<circle cx="318" cy="460" r="3" fill="#1D4ED8"/>
+<text x="330" y="465" font-size="15" fill="#1F2937">Cached outside the repo</text>
+<text x="330" y="484" font-size="14"><tspan fill="#4B5563">rebuilt by </tspan><tspan fill="#4B5563">git hooks</tspan></text>
+<rect x="604" y="260" width="150" height="36" rx="8" fill="#0F2B4C"/>
+<text x="679" y="284" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" text-anchor="middle"><tspan fill="#9CC3F5">$ </tspan><tspan font-weight="700" fill="#FFFFFF">ctx </tspan><tspan fill="#FBBF24">"D12"</tspan></text>
+<g transform="translate(606 310)"><path d="M2 1v6a3 3 0 0 0 3 3h8M10 6.5l3.5 3.5L10 13.5" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="626" y="322" font-size="15" fill="#1F2937">5 refs + exact excerpt</text>
+<text x="626" y="342" font-size="15" font-weight="700" fill="#1D4ED8">≤ 3 KB</text>
+<circle cx="608" cy="373" r="3" fill="#1D4ED8"/>
+<text x="620" y="378" font-size="15" fill="#0F2B4C"><tspan font-weight="700">Session card</tspan>  <tspan font-weight="600" fill="#1D4ED8">≤ 4 KB</tspan></text>
+<circle cx="608" cy="405" r="3" fill="#1D4ED8"/>
+<text x="620" y="410" font-size="15" fill="#0F2B4C"><tspan font-weight="700">Edit context:</tspan> <tspan font-weight="600" fill="#1D4ED8">≤ 3 lines</tspan></text>
+<text x="620" y="429" font-size="14" fill="#4B5563">when a file is touched</text>
+<circle cx="608" cy="457" r="3" fill="#1D4ED8"/>
+<text x="620" y="462" font-size="15" font-weight="700" fill="#0F2B4C">Session topic</text>
+<text x="620" y="481" font-size="14" fill="#4B5563">for parallel agents</text>
+<text x="620" y="499" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#4B5563">(worktrees)</text>
+<g transform="translate(894 266)"><rect x="1" y="6.5" width="11" height="8" rx="2" fill="#B45309"/><path d="M3.5 6.5V4.8a3 3 0 0 1 6 0v1.7" fill="none" stroke="#B45309" stroke-width="1.7"/></g>
+<text x="914" y="278" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#92400E">SessionStart</text>
+<text x="914" y="298" font-size="14" fill="#4B5563">card injected on every</text>
+<text x="914" y="317" font-size="14" fill="#4B5563">start / resume / compact</text>
+<g transform="translate(894 340)"><rect x="1" y="6.5" width="11" height="8" rx="2" fill="#B45309"/><path d="M3.5 6.5V4.8a3 3 0 0 1 6 0v1.7" fill="none" stroke="#B45309" stroke-width="1.7"/></g>
+<text x="914" y="352" font-size="15" font-weight="700" fill="#92400E">Read gate</text>
+<text x="914" y="372" font-size="14" fill="#4B5563">full read of a &gt; 30 KB doc</text>
+<text x="914" y="391" font-size="14" fill="#4B5563">is <tspan font-weight="700" fill="#1F2937">denied</tspan>; line ranges allowed</text>
+<g transform="translate(894 414)"><rect x="1" y="6.5" width="11" height="8" rx="2" fill="#B45309"/><path d="M3.5 6.5V4.8a3 3 0 0 1 6 0v1.7" fill="none" stroke="#B45309" stroke-width="1.7"/></g>
+<text x="914" y="426" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#92400E">git hooks</text>
+<text x="914" y="446" font-size="14" fill="#4B5563">index always fresh</text>
+<g transform="translate(894 469)"><rect x="1" y="6.5" width="11" height="8" rx="2" fill="#B45309"/><path d="M3.5 6.5V4.8a3 3 0 0 1 6 0v1.7" fill="none" stroke="#B45309" stroke-width="1.7"/></g>
+<text x="914" y="481" font-size="15" font-weight="700" fill="#92400E">Miss log</text>
+<text x="914" y="501" font-size="14" fill="#4B5563">the index improves</text>
+<rect x="40" y="546" width="1120" height="146" rx="14" fill="#0F2B4C"/>
+<text x="68" y="577" font-size="13" font-weight="700" fill="#9CC3F5" letter-spacing="1.6">MEASURED ON A REAL PROJECT</text>
+<line x1="320" y1="600" x2="320" y2="676" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<line x1="600" y1="600" x2="600" y2="676" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<line x1="880" y1="600" x2="880" y2="676" stroke="#FFFFFF" stroke-opacity="0.16" stroke-width="1"/>
+<text x="68" y="628" font-size="34" font-weight="700"><tspan font-size="26" font-weight="600" fill="#94A3B8">50 KB</tspan><tspan font-size="26" fill="#60A5FA"> → </tspan><tspan fill="#FFFFFF">4 KB</tspan></text>
+<text x="68" y="656" font-size="14.5" fill="#CBD5E1">session-start context</text>
+<text x="348" y="628" font-size="34" font-weight="700" fill="#FFFFFF">≤ 3 KB</text>
+<text x="348" y="656" font-size="14.5" fill="#CBD5E1">per answer,</text>
+<text x="348" y="675" font-size="14.5" fill="#CBD5E1">instead of a whole file</text>
+<text x="628" y="628" font-size="34" font-weight="700" fill="#FBBF24">~40 ms</text>
+<text x="628" y="656" font-size="14.5" fill="#CBD5E1">gate cost</text>
+<text x="908" y="628" font-size="34" font-weight="700" fill="#FFFFFF">Zero<tspan font-size="18" font-weight="600"> dependencies</tspan></text>
+<text x="908" y="656" font-size="14.5" fill="#CBD5E1">Node ≥ 18</text>
+<text x="908" y="675" font-size="14.5" fill="#CBD5E1">Windows / macOS / Linux</text>
+</svg>
