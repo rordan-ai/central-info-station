@@ -29,14 +29,28 @@ read-gate cost **~40ms** per tool call. Zero dependencies — Node 18+, Windows 
 
 ## Install
 
-**As a Claude Code plugin** (recommended):
+One repository, three ways in — pick by your setup (check your version with `claude --version`):
+
+**Claude Code 2.1.275 or newer** — one command:
+
+```
+/plugin install central-info-station --marketplace rordan-ai/central-info-station
+```
+
+**Older Claude Code with plugins** — two commands (add this repo as a plugin source, then install from it;
+`rordan-ai` is the source's name, not another address):
 
 ```
 /plugin marketplace add rordan-ai/central-info-station
 /plugin install central-info-station@rordan-ai
 ```
 
-**Or as a plain skill** — copy `plugins/central-info-station/skills/central-info-station/` to `~/.claude/skills/central-info-station/`.
+**No plugin system** (or you prefer a plain skill) — copy the skill folder:
+
+```
+git clone https://github.com/rordan-ai/central-info-station
+cp -r central-info-station/plugins/central-info-station/skills/central-info-station ~/.claude/skills/
+```
 
 Then, in a repository, ask Claude: *"set up CIS in this repo"*. The skill walks through it with you:
 

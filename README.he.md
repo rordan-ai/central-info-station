@@ -34,7 +34,19 @@ CIS משנה את ההרגל:
 
 ## התקנה
 
-**כפלאגין של Claude Code** (מומלץ):
+ריפו אחד, שלוש דרכים להתקנה. בוחרים לפי הסביבה שלך. את הגרסה בודקים עם `claude --version`.
+
+**Claude Code 2.1.275 ומעלה** — פקודה אחת:
+
+<div dir="ltr">
+
+```
+/plugin install central-info-station --marketplace rordan-ai/central-info-station
+```
+
+</div>
+
+**Claude Code ישן יותר עם פלאגינים** — שתי פקודות. הראשונה מוסיפה את הריפו כמקור לפלאגינים, והשנייה מתקינה ממנו. `rordan-ai` הוא שם המקור, לא כתובת נוספת:
 
 <div dir="ltr">
 
@@ -45,7 +57,16 @@ CIS משנה את ההרגל:
 
 </div>
 
-**או כסקיל רגיל:** מעתיקים את `plugins/central-info-station/skills/central-info-station/` אל `~/.claude/skills/central-info-station/`.
+**בלי מערכת פלאגינים** (או כשמעדיפים סקיל רגיל) — מעתיקים את תיקיית הסקיל:
+
+<div dir="ltr">
+
+```
+git clone https://github.com/rordan-ai/central-info-station
+cp -r central-info-station/plugins/central-info-station/skills/central-info-station ~/.claude/skills/
+```
+
+</div>
 
 אחר כך, בתוך ריפו, מבקשים מ-Claude: *"תתקין CIS בריפו הזה"*. הסקיל עובר איתך על השלבים:
 
