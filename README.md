@@ -1,5 +1,13 @@
 # Central Info Station (CIS)
 
+> **Measured on a real multi-agent project:**
+>
+> | | before | with CIS | saving |
+> |---|---|---|---|
+> | context at session start | ~50 KB | **≤ 4 KB** | **~92%** |
+> | one lookup ("where did we decide X?") | a whole doc, 50–300 KB | **≤ 3 KB** | **94–99%** |
+> | cost of the read gate per tool call | — | **~40 ms** | — |
+
 **Retrieve, don't read.** A self-updating index of your project's decisions, plans, handoff notes and agent rules — plus
 Claude Code hooks that make AI coding agents *use* it instead of pouring 300KB documents into their context.
 
@@ -24,8 +32,7 @@ CIS changes the habit:
 | editing `billing.ts` | no idea a decision governs it | **≤3 lines**: the decision / rule / memory that names it |
 | keeping it current | someone remembers to | git hooks rebuild the index in the background |
 
-Measured on a real multi-agent project: session-start context **50KB → 4KB**, answers ≤3KB instead of whole files,
-read-gate cost **~40ms** per tool call. Zero dependencies — Node 18+, Windows / macOS / Linux.
+Zero dependencies — Node 18+, Windows / macOS / Linux.
 
 ## Install
 
