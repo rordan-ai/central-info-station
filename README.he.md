@@ -37,14 +37,32 @@ CIS משנה את ההרגל:
 
 ## התקנה
 
-ריפו אחד, שלוש דרכים להתקנה. בוחרים לפי הסביבה שלך. את הגרסה בודקים עם `claude --version`.
+ריפו אחד, כמה דרכים להתקנה. בוחרים לפי הסביבה שלך. הריפו לא נמצא בקטלוג הרשמי של Anthropic, ולכן הוא לא יופיע ב-**Discover** עד שמוסיפים אותו פעם אחת כמקור פלאגינים (marketplace).
 
-**Claude Code 2.1.275 ומעלה** — פקודה אחת:
+**אפליקציית Claude (דסקטופ / ווב)** — מתקינים פעם אחת לחשבון, וזה מסתנכרן גם ל-Claude Code:
+
+1. **Customize ← Plugins ← Add marketplace**, ומקלידים `rordan-ai/central-info-station`.
+2. מוצאים ברשימה את **central-info-station** ולוחצים **Install**.
+3. אופציונלי: מדליקים **Sync automatically** כדי לקבל עדכונים.
+
+**לכל הארגון (Team / Enterprise)** — Owner של הארגון מסנכרן את הריפו כמקור פלאגינים מהגדרות הארגון, וכל החברים רואים אותו ברשימת הפלאגינים (ה-Owner יכול גם להגדיר אותו כחובה).
+
+**Claude Code 2.1.275 ומעלה** — פקודה אחת (את הגרסה בודקים עם `claude --version`):
 
 <div dir="ltr">
 
 ```
 /plugin install central-info-station --marketplace rordan-ai/central-info-station
+```
+
+</div>
+
+מהטרמינל, בלי לפתוח סשן (Claude Code 2.1.292 ומעלה):
+
+<div dir="ltr">
+
+```
+claude plugin install central-info-station --marketplace rordan-ai/central-info-station
 ```
 
 </div>

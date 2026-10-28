@@ -36,12 +36,28 @@ Zero dependencies — Node 18+, Windows / macOS / Linux.
 
 ## Install
 
-One repository, three ways in — pick by your setup (check your version with `claude --version`):
+One repository, several ways in — pick by your setup. This repo is not in Anthropic's official catalog, so it
+won't show up under **Discover** until you add it as a marketplace (a plugin source) once.
 
-**Claude Code 2.1.275 or newer** — one command:
+**Claude app (Desktop / web)** — install once for your account; it also syncs to Claude Code:
+
+1. **Customize → Plugins → Add marketplace**, enter `rordan-ai/central-info-station`.
+2. Find **central-info-station** in the list and click **Install**.
+3. Optional: turn on **Sync automatically** for that marketplace to get updates.
+
+**Whole organization (Team / Enterprise)** — an organization Owner syncs this repository as a plugin marketplace
+from the organization settings; members then see it in their plugin list (the Owner can also mark it required).
+
+**Claude Code 2.1.275 or newer** — one command (check your version with `claude --version`):
 
 ```
 /plugin install central-info-station --marketplace rordan-ai/central-info-station
+```
+
+From your shell, without opening a session (Claude Code 2.1.292 or newer):
+
+```
+claude plugin install central-info-station --marketplace rordan-ai/central-info-station
 ```
 
 **Older Claude Code with plugins** — two commands (add this repo as a plugin source, then install from it;
